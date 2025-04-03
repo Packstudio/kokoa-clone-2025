@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "variables.css";
+/*@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");*/
+@import "reset.css"; /*To Do : reset css file add*/
+/*https://meyerweb.com/eric/tools/css/reset/reset.css*/
+
+/* -- Components --*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
+/* -- Screen --*/
+@import "screen/login.css";
+
+body {
+  background-color: white;
+  font-family: Roboto, sans-serif, "Boldonse", system-ui;
+  height: 1000vh;
+}

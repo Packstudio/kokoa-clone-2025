@@ -1,0 +1,48 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.03);
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+}
+
+.nav__li {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.nav__link {
+    color: #4b4e52;
+    position: relative;
+}
+
+.nav__note {
+    background-color: tomato;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-weight: 600;
+
+    position: absolute;
+    right: -15px;
+    top: -25px;
+}
+
+.nav__tic {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+    position: absolute;
+    right: -15px;
+    top: -20px;
+}
