@@ -28,3 +28,14 @@
     right:-100px;
     top:-5px;
 }
+
+.screen-header__dot-more {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    
+    position: absolute;
+    right:-150px;
+    top:-5px;
+}
