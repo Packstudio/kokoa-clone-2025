@@ -2,15 +2,29 @@
     display: flex;
     justify-content: space-between;
     margin-top: 3vh;
-    padding: 25px;
+    padding: var(--horizontal-space);
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .screen-header__title {
     font-size: 38px;
     font-weight: 600;
+    color: rgba(0,0,0,0.8);
 }
 
 .screen-header__icons span {
     margin-left: 25px;
+    position: relative;
+}
+
+.screen-header__dot {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    
+    position: absolute;
+    right:-100px;
+    top:-5px;
 }
