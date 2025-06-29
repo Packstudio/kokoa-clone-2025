@@ -1,6 +1,7 @@
 :root {
     --yellow: #fae100;
+    --green: #80c132;
     --yellow-rgb: 250, 225, 0; /* rgba용 변수 */
-    --horizontal-space: 25px; /* padding? */
+    --horizontal-space: 45px; /* padding? */
     --main-border: 1.5px solid rgba(0,0,0,0.35);
 }
